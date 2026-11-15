@@ -16,4 +16,6 @@ jobs:
 
 `v1` moves to each release that keeps the workflow's inputs. Each release also gets an immutable `vX.Y.Z` tag for callers that pin one.
 
-The files here are published from another repository on each release; pull requests against them are not merged.
+`examples/tumpel-prebuild.yml` is the full caller workflow to commit at `.github/workflows/tumpel-prebuild.yml`.
+
+This repository is the source of these workflows. Changes land on `main`; `v1` moves once a change is ready.
